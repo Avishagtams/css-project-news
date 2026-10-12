@@ -89,3 +89,29 @@
 }
 
 /* footer */
+.ftr-placeholder{
+   background-color: var(--blue-dark);
+   height: 40vh;
+   color: var(--gray);
+   padding: 5vh;
+}
+#ftr-all{
+   display: flex;
+   justify-content: space-evenly;
+   width: 70%;
+   margin: auto;
+   font-size: 20px;
+   margin-bottom: 2vh;
+}
+.ftr-bold{
+   font-weight: 600;
+}
+.ftr-placeholder hr{
+   width: 80%;
+   margin: auto;
+   border-color: var(--gray-text);
+}
+#ftr-rights-reserved{
+   margin: 15px;
+   text-align: center;
+}
