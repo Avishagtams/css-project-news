@@ -5,3 +5,87 @@
    אסור לעצב כאן תגיות חשופות (div, a, ul, h2...) ואסור לשנות את .wrap
    ========================================================== */
 
+/* main part 1 */
+#hero-breadcrumb {
+   color: var(--gray-text);
+   font-size: smaller;
+}
+
+#hero-h1 {
+   color: var(--blue-dark);
+}
+
+#hero-small-heading {
+   color: var(--gray-text);
+   font-size: larger;
+}
+
+.hero-placeholder {
+   height: 80vh;
+}
+
+#hero-all-news {
+   display: flex;
+   justify-content: space-between;
+   height: 70%;
+}
+
+.hero-news {
+   border: 1px solid var(--border);
+   border-radius: 5px;
+}
+
+#hero-news1 {
+   width: 65%;
+}
+
+#hero-news2 {
+   width: 33%;
+}
+
+#hero-news1 .hero-fake-img {
+   height: 65%;
+   background-color: #a1b1c6;
+}
+
+#hero-news2 .hero-fake-img {
+   height: 30%;
+   background-color: #cfd7e1;
+}
+
+.hero-fake-img {
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+}
+
+#hero-news1 .hero-text-box {
+   height: 35%;
+}
+
+#hero-news2 .hero-text-box {
+   height: 70%;
+}
+
+.hero-text-box {
+   position: relative;
+   padding: 1vw;
+}
+
+.hero-tag {
+   background-color: var(--accent);
+   border-radius: 3px;
+   font-size: 10px;
+   color: var(--gray);
+   padding: 5px;
+}
+
+.hero-artist {
+   display: block;
+   position: absolute;
+   right: 1vw;
+   bottom: 8px;
+   font-size: smaller;
+   color: var(--gray-text);
+}
+
+/* footer */
